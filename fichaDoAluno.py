@@ -25,7 +25,7 @@ class Aluno:
 def esperar(tempo=1):
     time.sleep(tempo)
 
-def login(login='INSIRA SEU RG',senha=''):
+def login(login='INSIRA SEU LOGIN',senha='INSIRA SUA SENHA'):
 
     esperar()
     navegador.find_element(By.ID, 'name').send_keys(login)
